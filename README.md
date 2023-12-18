@@ -1,40 +1,48 @@
-Analysis of Food Delivery Services 🛵
+# Food Delivery Service Analysis 🛵
 
-I conducted an internal review focusing on seven key performance indicators (KPIs) and performed a comprehensive analysis of competitors to formulate a precise growth optimization roadmap.
+## Overview
+This repository contains an in-depth analysis of a (fictitious) food delivery service facing increased competition in the city of Graz. The analysis focuses on seven key performance indicators (KPIs) to provide insights for growth optimization. By evaluating internal data and conducting a competitor analysis, a comprehensive roadmap has been crafted to guide strategic decisions.
 
-Despite the successful growth of our (fictitious) company, the recent emergence of new delivery services in Graz has intensified competition. Responding to the strategy team's request, I carried out a competitor analysis to aid in developing an accurate roadmap for optimizing growth.
-
-🗞️ Data
+## Data 🗞️
 The dataset comprises two documents:
 
-Internal dataset with columns: name, zip, kpi, Month 1, Month 2, and delivery service.
-Competition dataset with columns: name, zip, orders, month, and delivery service.
-● NOTE: The competition data's Excel file contains two sheets (Month 1 and Month 2).
+1. **Internal Data Set:** Includes columns such as name, zip, KPIs, Month 1, Month 2, and delivery service.
+2. **Competition Dataset:** Includes columns like name, zip, orders, month, and delivery service. Note that the Excel file for competition data has two sheets (Month 1 and Month 2).
 
-Glossary:
+### Glossary 🧗‍♂️
+- **KPIs:**
+  - **% Kill Rate:** Percentage of customers not reordering after the initial purchase.
+  - **# Positive Comment:** Number of reviews with positive comments.
+  - **# Negative Comment:** Number of reviews with negative comments.
+  - **Avg Time to Accept (s):** Average time (in seconds) to accept an order.
+  - **Graz Relevant Zip Codes:** 8010, 8020, 8036, 8041, 8042, 8043, 8045, 8051, 8052, 8053, 8054, 8055, 8063, 8077.
+  - **# Commissionable Orders:** Orders generating commissions for the platform.
+  - **Avg Basket Size €:** Number of products a customer buys per transaction (calculated as total units sold divided by total transactions).
 
-🧗‍♂️ KPIs
+## Business Questions 🧭
+1. **Active Restaurants:**
+   - How many restaurants are active on deliverando or our competitors in the given months (>0 orders per month)?
+   - What is the growth rate of the respective platforms?
 
-% Kill rate: Percentage of customers who did not reorder after their initial order.
-Positive comment: Number of reviews with positive comments.
-Negative comment: Number of reviews with negative comments.
-Avg time to accept (s): Average time in seconds to accept an order.
-Graz Relevant zip codes: 8010, 8020, 8036, 8041, 8042, 8043, 8045, 8051, 8052, 8053, 8054, 8055, 8063, 8077.
-Commissionable Orders: Orders generating commissions for deliverando.
-Avg Basket Size €: Number of products a customer buys per transaction, calculated as total units sold divided by total transactions.
-🧭 Business Questions
+2. **Exclusive Online Presence:**
+   - How many restaurants are exclusively online with our competitors and not available on deliverando?
 
-How many restaurants are active on deliverando or our competitors in the given months (>0 orders per month)?
+3. **Top Ordering Restaurants:**
+   - Which restaurants have placed the most orders with our competitors (top 10)?
+     - Are these restaurants also active on deliverando?
+     - How do the orders on deliverando compare to the performance on the competitor platform?
 
-How much have the respective platforms grown?
-How many restaurants are exclusively online with our competitors and not available on deliverando?
+4. **KPI Analysis:**
+   - What conclusions can be drawn regarding other KPIs from the performance of the top restaurants on deliverando?
 
-Which restaurants have placed the most orders with our competitors (top 10)?
+## Recommendations
+Based on the analysis, the following recommendations are proposed for the strategy team to enhance growth and competitiveness:
 
-Are these restaurants also active on deliverando, and if so,
-How did the orders on the deliverando platform compare to the performance on the competitor platform?
-What conclusions regarding other KPIs can you draw from the performance of the top restaurants on deliverando?
+- Identify opportunities for platform expansion in areas with high demand.
+- Develop strategies to attract restaurants exclusive to competitors.
+- Implement measures to improve KPIs, especially focusing on customer retention (% Kill Rate).
+- Analyze and understand the factors contributing to the success of top-performing restaurants.
+- Collaborate with high-ordering restaurants to enhance their performance on deliverando.
+- Continuously monitor and adapt strategies based on market dynamics.
 
-Based on your analysis:
-
-What recommendations would you make to the strategy team?
+Feel free to explore the detailed analysis and insights provided in the respective datasets. Your feedback and contributions are highly welcome! 🚀
