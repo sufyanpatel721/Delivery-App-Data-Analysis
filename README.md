@@ -45,4 +45,7 @@ Based on the analysis, the following recommendations are proposed for the strate
 - Collaborate with high-ordering restaurants to enhance their performance on deliverando.
 - Continuously monitor and adapt strategies based on market dynamics.
 
+📺 The vizualization of the analysis results are displayed here:
+https://public.tableau.com/authoring/FoodDeliveryAnalysis_17029146445800/Story1#1
+
 Feel free to explore the detailed analysis and insights provided in the respective datasets. Your feedback and contributions are highly welcome! 🚀
